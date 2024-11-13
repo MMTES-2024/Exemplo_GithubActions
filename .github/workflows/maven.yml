@@ -25,3 +25,6 @@ jobs:
 
       - name: Run tests with Maven
         run: mvn test
+        
+      - name: Run CalculadoraApp
+        run: java -cp target/projeto-calculadora-1.0-SNAPSHOT.jar CalculadoraApp
